@@ -1,0 +1,14 @@
+D:\Dokumenty\Staż\Lab02\bin\Debug\net6.0\Lab02.exe
+D:\Dokumenty\Staż\Lab02\bin\Debug\net6.0\Lab02.deps.json
+D:\Dokumenty\Staż\Lab02\bin\Debug\net6.0\Lab02.runtimeconfig.json
+D:\Dokumenty\Staż\Lab02\bin\Debug\net6.0\Lab02.dll
+D:\Dokumenty\Staż\Lab02\bin\Debug\net6.0\Lab02.pdb
+D:\Dokumenty\Staż\Lab02\obj\Debug\net6.0\Lab02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dokumenty\Staż\Lab02\obj\Debug\net6.0\Lab02.AssemblyInfoInputs.cache
+D:\Dokumenty\Staż\Lab02\obj\Debug\net6.0\Lab02.AssemblyInfo.cs
+D:\Dokumenty\Staż\Lab02\obj\Debug\net6.0\Lab02.csproj.CoreCompileInputs.cache
+D:\Dokumenty\Staż\Lab02\obj\Debug\net6.0\Lab02.dll
+D:\Dokumenty\Staż\Lab02\obj\Debug\net6.0\refint\Lab02.dll
+D:\Dokumenty\Staż\Lab02\obj\Debug\net6.0\Lab02.pdb
+D:\Dokumenty\Staż\Lab02\obj\Debug\net6.0\Lab02.genruntimeconfig.cache
+D:\Dokumenty\Staż\Lab02\obj\Debug\net6.0\ref\Lab02.dll
