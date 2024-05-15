@@ -21,7 +21,7 @@
             Console.WriteLine($"Liczba Goli: {this.liczbaGoli}");
         }
 
-        public void StrzelGola()
+        public virtual void StrzelGola()
         {
             this.liczbaGoli++;
         }

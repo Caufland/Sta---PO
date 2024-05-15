@@ -55,6 +55,14 @@
             s.UsunOceny();
 
             s.WypiszInfo();
+
+            Console.WriteLine("**Zadanie Domowe*");
+
+            Pilkarz pilkarz = new PilkazReczny("Wojtek", "Król", "18.12.2004","N", "KS Radlna");
+
+            ((PilkazReczny)pilkarz).StrzelGola();
+            
+
         }
     }
 }
