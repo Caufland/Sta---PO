@@ -24,6 +24,37 @@
 
             o3.WypiszInfo();
             p.WypiszInfo();
+
+            Console.WriteLine("**DRUGIE ZADANIE*");
+
+            ((Student)o2).DodajOcene("PO", "20.02.2011", 5.0);
+            ((Student)o2).DodajOcene("Bazy Dancyh", "13.02.2011", 4.0);
+
+            o2.WypiszInfo();
+            Console.WriteLine();
+
+            s.DodajOcene("Bazdy dancyh", "01.05.2011", 5.0);
+            s.DodajOcene("AWW", "11.05.2011", 5.0);
+            s.DodajOcene("AWW", "02.04.2011", 4.5);
+
+            s.WypiszInfo();
+            Console.WriteLine();
+
+            s.UsunOcene("AWW", "02.04.2011", 4.5);
+
+            s.WypiszInfo();
+            Console.WriteLine();
+
+            s.DodajOcene("AWW", "02.04.2011", 4.5);
+            s.WypiszInfo();
+            s.UsunOceny("AWW");
+
+            s.WypiszInfo();
+
+            s.DodajOcene("AWW", "02.04.2011", 4.5);
+            s.UsunOceny();
+
+            s.WypiszInfo();
         }
     }
 }
