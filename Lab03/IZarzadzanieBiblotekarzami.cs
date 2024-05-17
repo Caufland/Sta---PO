@@ -1,6 +1,6 @@
 ﻿namespace Lab03
 {
-    public interface IZarzadzanieBiblotekarzami
+    public interface IZarzadzanieBibliotekarzami
     {
         public void DodajBibliotekarza(Bibliotekarz biblotekarz);
         public void UsunBibliotekarza(string imie, string nazwisko);

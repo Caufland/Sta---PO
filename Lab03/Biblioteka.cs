@@ -1,7 +1,7 @@
 ﻿
 namespace Lab03
 {
-    public class Biblioteka : IZarzadzaniePozycjami, IZarzadzanieBiblotekarzami
+    public class Biblioteka : IZarzadzaniePozycjami, IZarzadzanieBibliotekarzami
     {
         private string adres;
         private List<Bibliotekarz> biblotekarze;
