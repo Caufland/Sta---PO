@@ -19,7 +19,7 @@
             kat1.DodajPozycje(k1);
             kat1.DodajPozycje(cz1);
 
-            Console.WriteLine($"Znaleziono: {kat1.ZnajdzPozycje("Atomowe nawyki").Tytul}");
+            Console.WriteLine($"Znaleziono: {kat1.ZnajdzPozycjePoTytule("Atomowe nawyki").Tytul}");
 
             kat1.WypiszWszystkiePozycje();
         }

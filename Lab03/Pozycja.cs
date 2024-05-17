@@ -15,7 +15,12 @@ namespace Lab03
 
         public String Tytul
         {
-            get { return tytul; }
+            get { return this.tytul; }
+        }
+
+        public int Id
+        {
+            get { return this.id; }
         }
 
         public Pozycja() { }
