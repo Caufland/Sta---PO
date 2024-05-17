@@ -10,6 +10,7 @@ namespace Lab03
     {
         private string imie;
         private string nazwisko;
+        private string narodowosc;
 
         public string Imie
         {
@@ -21,11 +22,12 @@ namespace Lab03
         }
 
         public Autor() : base("nieznane", "nieznane") { }
-        public Autor(string imie, string nazwisko)
+        public Autor(string imie, string nazwisko, string narodowosc)
             : base(imie, nazwisko)
         {
             this.imie = imie;
             this.nazwisko = nazwisko;
+            this.narodowosc = narodowosc;
         }
 
 

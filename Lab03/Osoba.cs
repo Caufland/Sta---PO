@@ -4,7 +4,16 @@
     {
         protected string imie;
         protected string nazwisko;
-    
+
+        public string Imie
+        {
+            get { return this.imie; }
+        }
+        public string Nazwisko
+        {
+            get { return this.nazwisko; }
+        }
+
         public Osoba() { }
         public Osoba(string imie, string nazwisko) 
         {
