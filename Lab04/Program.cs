@@ -30,6 +30,30 @@
 
             Console.WriteLine( $"Ilość w tablicy: {list.Count}");
 
+            var list2 = new MyList<Person>
+            {
+                new Person("Jan", "Kowalski", 12),
+                new Person("Ala", "Nowak", 32),
+                new Person("Maja", "Marchewka", 14),
+                new Person("Jakub", "Kowalski", 17),
+                new Person("Janusz", "Nosacz", 65),
+            };
+
+            Console.WriteLine("\nosoby");
+
+            int j = 0;
+
+            foreach (Person p in list2) 
+            {
+                Console.WriteLine($"\t[{++j}]=> {p}");
+            }
+
+            Console.WriteLine("\nkobiety:");
+            var sublist = list2.Where(e => e.FirstName.EndsWith("a"));
+            sublist.ToList().ForEach(e => Console.WriteLine(e));
+
+            Console.ReadKey();
+
         }
     }
 }
